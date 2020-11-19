@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+nav {
+  background-color: #000000 !important;
+}
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .nav-link {
+  color: #fff;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  margin-top: 0px;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+.nav-link,
+.search-icon {
+  color: #fff !important;
+}
+a.nav-link {
+  padding-right: 2em;
+}
+a.nav-link:hover {
+  background-color: gray;
+}
+.search-icon:hover {
+  cursor: pointer;
+  background-color: red;
+}
+.nav-item-mobile {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .search-icon {
+    display: none;
+  }
+  .navbar .dropdown {
+    display: none;
+  }
+  .nav-item-mobile {
+    display: block;
+  }
+}
+
+/* BAND */
+.band-container {
+  padding: 64px 0;
+}
+.band-container h2 {
+  letter-spacing: 4px;
+  text-align: center;
+}
+.text-opacity {
+  opacity: 0.6;
+}
+.text-content {
+  text-align: justify;
+}
+.band-member {
+  padding-top: 32px;
+  padding-bottom: 10px;
+}
+.band-member img {
+  width: 60%;
+  height: 80%;
+  border-radius: 4px;
+}
+/* TOUR */
+#tour {
+  background-color: #000000;
+  color: #fff;
+}
+.tour-container {
+  padding: 64px 0;
+}
+.tour-container h2 {
+  letter-spacing: 4px;
+}
+.tour-container .sold {
+  color: #fff;
+  background-color: #f44336;
+  margin-left: 16px;
+  padding: 2px 8px;
+}
+
+.tour-container li {
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid;
+}
+.tour-number {
+  padding: 0 8px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #fff;
+}
+.tour-list img {
+  width: 100%;
+}
+.tour-list {
+  color: #000000;
+  padding: 10px 16px;
+}
+.tour-content {
+  background-color: #fff;
+  padding: 10px 16px;
+}
+button {
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+}
+/* CONTACT */
+.contact-container {
+  padding: 64px 0;
+}
+.contact-container h2 {
+  letter-spacing: 4px;
+}
+
+.map-image {
+  width: 100%;
+}
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 64px 0;
+  color: gray;
+}
+i.footer-icon {
+  font-size: 2em;
+}
+.footer-icon:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: #f1f1f1;
+}
+.link-w3c a {
+  color: gray;
+  text-decoration: underline;
+}
+
+/* MODAL */
+.modal-header {
+  background-color: #009688 !important;
+  color: #fff;
+  padding: 32px !important;
+}
+.modal-footer-1 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todo-list {
+  width: 55%;
+  margin: 0 auto;
+}
+.element {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  word-wrap: break-word;
+}
